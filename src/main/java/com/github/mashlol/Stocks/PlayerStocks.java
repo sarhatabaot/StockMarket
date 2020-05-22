@@ -6,11 +6,11 @@ import java.sql.SQLException;
 import java.text.DecimalFormat;
 import java.util.HashMap;
 
+import com.github.mashlol.Messages.Message;
 import org.bukkit.entity.Player;
 
 import com.github.mashlol.MySQL;
 import com.github.mashlol.StockMarket;
-import com.github.mashlol.Messages.Message;
 
 public class PlayerStocks {
 

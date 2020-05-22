@@ -3,13 +3,13 @@ package com.github.mashlol.Threads;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import com.github.mashlol.StockMarket;
+import com.github.mashlol.Stocks.PlayerStocks;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
 import com.github.mashlol.MySQL;
-import com.github.mashlol.StockMarket;
-import com.github.mashlol.Stocks.PlayerStocks;
 
 public class StockMarketDividendThread extends Thread {
 

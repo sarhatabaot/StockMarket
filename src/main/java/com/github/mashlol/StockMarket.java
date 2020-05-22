@@ -3,16 +3,16 @@ package com.github.mashlol;
 import java.util.Vector;
 import java.util.logging.Logger;
 
+import com.github.mashlol.Events.Event;
+import com.github.mashlol.Messages.Command;
+import com.github.mashlol.Threads.StockMarketEventThread;
 import net.milkbowl.vault.economy.Economy;
 import net.milkbowl.vault.permission.Permission;
 
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.github.mashlol.Events.Event;
-import com.github.mashlol.Messages.Command;
 import com.github.mashlol.Threads.StockMarketDividendThread;
-import com.github.mashlol.Threads.StockMarketEventThread;
 import org.bukkit.Bukkit;
  
 public class StockMarket extends JavaPlugin {
