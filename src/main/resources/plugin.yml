@@ -1,5 +1,5 @@
 name: StockMarket
-main: src.main.java.mashlol.StockMarket
+main: com.github.mashlol.StockMarket
 version: ${project.version}
 depend: [Vault]
 commands:
